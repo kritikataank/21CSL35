@@ -13,6 +13,9 @@ versions of a method. When Java encounters a call to an overloaded method, it si
 whose parameters match the arguments used in the call.
 In some cases, Java’s automatic type conversions can play a role in overload resolution.
 
+A constructor in Java is a special method that is used to initialize objects. 
+The constructor is called when an object of a class is created.
+
 Packages are containers for classes. They are used to keep the class name space compartmentalized.
 For example, a package allows you to create a class named List, which you can store in your own package without
 concern that it will collide with some other class named List stored elsewhere. Packages are stored in a hierarchical
